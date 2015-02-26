@@ -2,7 +2,7 @@
 //  ViewController.h
 //  HW1 Calculator
 //
-//  Created by Susan Linscheid on 2/2/15.
+//  Created by William Connell on 2/1/15.
 //  Copyright (c) 2015 edu.cudenver.csci.connell. All rights reserved.
 //
 
@@ -11,5 +11,6 @@
 @interface ViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UILabel *display;
 @end
 
